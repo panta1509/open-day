@@ -15,28 +15,25 @@
         }
 
         h1 {
-            font-size: 28px;
+            font-size: 24px;
             margin-bottom: 30px;
         }
 
         .choices {
             display: flex;
             gap: 30px;
-            flex-wrap: wrap; /* utile per schermi stretti */
-            justify-content: center;
         }
 
         .choice {
             background-color: rgba(0, 51, 153, 1); /* Blu scuro uniforme con le altre pagine */
-            padding: 25px 50px;
+            padding: 20px 40px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.15);
-            font-size: 20px;
+            font-size: 18px;
             text-decoration: none;
             color: white;
             transition: transform 0.2s ease, opacity 0.2s ease;
             text-align: center;
-            min-width: 180px;
         }
 
         .choice:hover {
@@ -44,16 +41,11 @@
             transform: scale(1.05);
         }
 
-        /* Mobile più leggibile */
+        /* Miglior leggibilità su mobile */
         @media (max-width: 500px) {
             .choice {
-                font-size: 24px;       /* testo più grande */
-                padding: 30px 60px;    /* riquadri più grandi */
-                min-width: 200px;      /* larghezza minima maggiore */
-            }
-
-            h1 {
-                font-size: 32px;       /* titolo più grande */
+                font-size: 20px;
+                padding: 25px 40px;
             }
         }
     </style>
