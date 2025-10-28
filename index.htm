@@ -2,6 +2,7 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prenotazione</title>
     <style>
         body {
@@ -39,6 +40,14 @@
             opacity: 0.85;
             transform: scale(1.05);
         }
+
+        /* Miglior leggibilità su mobile */
+        @media (max-width: 500px) {
+            .choice {
+                font-size: 20px;
+                padding: 25px 40px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -46,13 +55,9 @@
     <h1>Prenotazione:</h1>
     
     <div class="choices">
-        <a href="https://panta1509.github.io/date/" class="choice">Open day</a>
-        <a href="https://panta1509.github.io/liceale/" class="choice">Giorno da liceale</a>
+        <a href="opzione1.html" class="choice">Open day</a>
+        <a href="opzione2.html" class="choice">Giorno da liceale</a>
     </div>
 
 </body>
 </html>
-
-
-
-
